@@ -1,0 +1,87 @@
+body {
+    font-family: nunito,sans-serif;
+    background: #fff;
+    color: #444;
+    margin: 0;
+}
+.cartoon_page{
+    overflow: hidden;
+}
+.cartoon_cover{
+    overflow: hidden;
+    background: #2f303e;
+    width: 100%;
+    height: 208px;
+}
+.series-bg {
+    padding-top: 20%;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(15px) brightness(.5) contrast(1);
+}
+.cartoon_container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.cartoon_flex {
+    margin-top: -120px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 280px auto;
+    z-index: 1;
+}
+.cartoon_img{
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 15px rgba(0,0,0,.5);
+    border-radius: 5px;
+    margin: 15px;
+    align-items: center;
+
+}
+.cartoon_img img{
+    height: 340px;
+    width: 100%;
+    object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+    object-position: center center;
+}
+.cartoon_info p{
+    margin: 15px;
+}
+.cartoon_flexright{
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.cartoon_title{
+    margin: 30px;
+}
+.chapter_list {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+    max-height: 570px;
+    /*overflow-y: scroll;*/
+}
+ul {
+    margin: 5px;
+    padding-inline-start: 20px;
+}
+.flexch {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    align-items: center;
+    background-color: #2f303e;
+}
+.flexch_img img{
+    width: 50px;
+    height: 50px;
+
+    object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+    object-position: center center;
+}

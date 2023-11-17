@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:gainsboro;
+    font-family: sans-serif;
+}
+nav{
+    width: auto;
+    height: 60px;
+    background-color: rgb(244, 244, 244);
+    /*border: solid 1px rgb(161, 161, 161);    */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo a{
+    font-size: 1.5rem;
+}
+.menu {
+    display: flex;
+}
+.menu li{
+    width: 100%;
+    list-style: none;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu li:hover{
+    background: rgb(210, 210, 210);
+    transition: 1s;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.topBody{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 510px;
+    background-image: linear-gradient(white, #343434 80%);
+}
+.intopBody{
+    display: flex;
+    gap: 10px;
+}
+.intopBody > div {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* เพิ่ม box-shadow ให้กับ div ใน .intopBody */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 466px;
+    background-color: #343434;
+}
+.space{
+    width: 100%;
+    height: 150px;
+}
+.content{
+    max-width: 960;
+    margin: 0 auto;
+}
+.midBody{
+    /*display: flex;*/
+    align-items: center;
+    width: 100%;
+    height: 370px;
+    background-color: #343434;
+
+}
+input[type="button"] {
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #C15EC3; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.recommend_area{
+    
+}
+.item{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    /*grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 10px;*/
+}
+.cartoonBox{
+    
+    position: relative;
+    /*width: 188px;*/
+    height: 295px;
+    background-color: #ffffff; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+.cartoonBox:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); /* ปรับค่า box-shadow ที่ต้องการเมื่อ hover */
+    outline: 3px solid #C15EC3;
+    transition: 0.3s;
+}
+
+.cartoonBox img {
+    width: 100%; /* ทำให้รูปภาพเต็มกรอบ */
+    height: 200px;
+    object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+    object-position: center center;
+}
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1; /* ตั้งค่า z-index เพื่อให้ข้อความอยู่บนสุด */
+}
+.tit {
+    max-width: 960px;
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 0 0 7px 2px;
+    font-family: serif;
+    align-items: center;
+    justify-content: center;
+}
+.img_area{
+    display: block;
+    width: 188px;
+    height: 295px;
+    overflow: hidden;
+    position: relative;
+}
+.info{
+    font-size: 20px;
+    padding: 1rem;
+}
+input[type="button"]:hover {
+    background-color: #8f4991;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+@media screen and (max-width: 400px){
+    .cartoonBox{
+        width: auto;
+    }
+    .tit{
+        left: auto;
+    }
+    .item{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

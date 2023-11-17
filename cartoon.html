@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToonToon</title>
+        <!--meta charset="x-windows-874"-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cartoon2.css" type="text/css"/>
+        <link rel="stylesheet" href="styleHome.css" type="text/css"/>
+        <link rel="stylesheet" href="slide.css" type="text/css"/>
+
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <div class="nav-con">
+                    <div class="logo">
+                        <img src="image/Logo.png" width="20" height="20">
+                        <a href="index.html">ToonToon</a>
+                    </div>
+                    <ul class="menu" id="myMenu">
+                            <li>
+                                <form class="search">
+                                    <i class="fa fa-search" onclick="togglesearchIcon(this)"></i>
+                                    <input class="search_input" type="text" placeholder="Search.." name="search">
+                                </form>
+                                
+                            </li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#">Daily</a></li>
+                            <li><a href="#">Login</a></li>
+                            
+                            <!--<li><input type="button" value="Log in" style="padding: 5px 10px; font-size: 16px;"></li>-->
+                    </ul> 
+                    <div class="ham-menu" onclick="toggleHam(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                      </div>
+                </div> 
+            </div>
+        </nav>
+        <!--------------------------------------------------------------------------->
+        <div class="cartoon_page">
+            <div class="box_">
+                
+            </div>
+            <div id="cartoonDetails"> 
+                
+            </div>  
+            <div class="chapter">
+                <h2>Chapter</h2>
+                <ul class="chapter_list">
+                    <!--<li>
+                        <a href="chapter.html">
+                            <div class="chapter_box">
+                                <img src="image/12.jpg">
+                                <div class="chapter_info">
+                                    <div class="name_chapter">
+                                        <p>ตอนที่ 1</p>
+                                    </div>
+                                    <div class="number_chapter">
+                                        <p>#1</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </li>-->
+                </ul>
+            </div> 
+            
+        </div>
+            
+        </div>
+
+    </body>
+    <script src="cartoon_script.js"></script>
+    <script src="show_chapter.js"></script>
+    <script src="script.js"></script>
+</html>

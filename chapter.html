@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ToonToon</title>
+    <!--meta charset="x-windows-874"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chapter.css" type="text/css"/>
+    <link rel="stylesheet" href="styleHome.css" type="text/css"/>
+    <link rel="stylesheet" href="slide.css" type="text/css"/>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <img src="image/Logo.png" width="20" height="20">
+                    <a href="index.html">ToonToon</a>
+                </div>
+                <ul class="menu" id="myMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Daily</a></li>
+                        <li><input type="button" value="Log in" style="padding: 5px 10px; font-size: 16px;"></li>
+                </ul> 
+                <div class="ham-menu" onclick="toggleHam(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </div> 
+        </div>
+    </nav>
+    <!--------------------------------------------------------------------------->
+    <div class="chapter_page">
+        <div class="img_container">
+            <div class="chapter-images">
+                <!-- Images will be dynamically added here by the script -->
+              </div>
+        </div> 
+        <div class="comment_container">
+            <h2>comment</h2>
+            <ul class="comment_box">
+                <li>
+                    <div class="user_date">
+                        <div class="username">
+                            <p>Abuda</p>
+                        </div>
+                        <div class="date">
+                            <p>20/04/2566</p>
+                        </div>
+                    </div>
+                    <div class="comment_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, officiis. Aspernatur repudiandae itaque culpa nostrum! Omnis facilis, eos suscipit inventore, amet, modi labore nam numquam velit quas in quaerat illo!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>   
+    </div>
+    
+    
+</body>
+<script src="showChapterImg.js"></script>
+<script src="script.js"></script>
+</html>

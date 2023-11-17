@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: calc(60% + 0.8vmin);
+}
+.space{
+    width: 100%;
+    height: 150px;
+}
+h2 {
+    font-family: sans-serif;
+}
+
+body{
+    background-color:rgb(224, 224, 224);
+    font-family: sans-serif;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search_input{
+    margin: 0.5rem;
+}
+/*.search_active{
+    padding: 200px;
+    background-color: rgb(210, 210, 210);
+  }
+.search_input{
+    display: none;
+}
+.search_input_active{
+    display: none;
+}*/
+nav{
+    width: auto;
+    height: 60px;
+    background-color: rgb(244, 244, 244);
+    /*border: solid 1px rgb(161, 161, 161);    */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+.logo a{
+    font-size: 1.5rem;
+}
+.menu {
+    position: relative;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    width: 100%;
+    list-style: none;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu li:hover{
+    background: rgb(210, 210, 210);
+    transition: 1s;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.topBody{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 510px;
+    background-image: linear-gradient(white, #343434 80%);
+}
+.intopBody{
+    display: flex;
+    gap: 10px;
+}
+.intopBody > div {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* เพิ่ม box-shadow ให้กับ div ใน .intopBody */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 466px;
+    background-color: #343434;
+}
+.content{
+    /*font-weight: 500;
+    margin-top: -15px;
+    padding-bottom: 116px;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.midBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 370px;
+    background-color: #343434;
+
+}
+input[type="button"] {
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #C15EC3; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.item{
+    max-width: 1075px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 7px;
+}
+.cartoonBox{
+    position: relative;
+    /*width: 188px;*/
+    height: 250px;
+    background-color: #ffffff; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+.cartoonBox:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); /* ปรับค่า box-shadow ที่ต้องการเมื่อ hover */
+    outline: 3px solid #C15EC3;
+    transition: 0.3s;
+}
+
+.cartoonBox img {
+    width: 100%; /* ทำให้รูปภาพเต็มกรอบ */
+    height: 190px;
+    object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+    object-position: center center;
+}
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1; /* ตั้งค่า z-index เพื่อให้ข้อความอยู่บนสุด */
+}
+.tit {
+    max-width: 60rem;
+    font-size: 30px;
+    font-weight: 500px;
+    padding: 0 0 7px 2px;
+    font-family:sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.img_area{
+    display: block;
+    width: 188px;
+    height: 295px;
+    overflow: hidden;
+    position: relative;
+}
+.info{
+    font-size: 16px;
+}
+.info p{
+    padding: 0.2rem 0.5rem 0 0.2rem;
+}
+input[type="button"]:hover {
+    background-color: #8f4991;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+
+
+.ham-menu {
+    display: none;
+    
+}
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+.menu_active{
+    display: block !important;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    width: 100%;
+    height: 370px;
+    background-color: #363636;
+    justify-content: center;
+}
+.foot h2{
+    padding: 100px;
+    color: white;
+}
+
+
+@media screen and (max-width: 800px){
+    .container{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        height: 50.58px;
+    }
+    .nav-con{
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #e0e0e0;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu li{
+        margin: 1rem 0;
+        padding: 1rem 0.5rem;
+    }
+    body{
+        background-color: #363636;
+    }
+
+    .menu{
+        display: none;
+    }
+    .ham-menu {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+      }
+    .topBody{
+        width: 100%;
+        height: auto;
+        background-color:#343434;
+    }
+    .mySlides img{
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+        object-position: center center;
+    }
+    .space{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .content{
+        margin:  0 0 0 0;
+        width: 100%;
+    }
+    
+    .midBody{
+        width: 100%;
+    }
+    .item{
+        width: 98%;
+    }
+    .cartoonBox{
+        margin: 0.1rem;
+        width: auto;
+        height: 230px;
+        background-color: #393939;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+    }
+    .cartoonBox p{
+        color: #cdcdcd;
+    }
+    .cartoonBox img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover; /* ไม่ต้องบีบรูปภาพแต่จะทำให้เต็ม container */
+        object-position: center center;
+    }
+    .info p{
+        font-weight: 200rem;
+        font-size: 16px;
+        padding: 2px 2px 2px;
+    }
+    h2.tit{
+        left: auto;
+        color: #ffffff;
+        font-weight: 100px;
+    }
+    .item{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3px;
+        
+    }
+    /*.slideshow-container {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        margin: auto;
+      }*/
+    
+}
+

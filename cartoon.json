@@ -1,0 +1,189 @@
+{
+    "userType": [
+      {
+        "TypeID": 1,
+        "TypeName": "End User"
+      },
+      {
+        "TypeID": 2,
+        "TypeName": "Creator User"
+      },
+      {
+        "TypeID": 3,
+        "TypeName": "Admin User"
+      }
+    ],
+    "myuser": [
+      {
+        "UID": 1,
+        "UName": "John Doe",
+        "TypeID": 1,
+        "Gmail": "john.doe@gmail.com",
+        "Password": "password123",
+        "Payment": 20,
+        "Coin": 100
+      },
+      {
+        "UID": 2,
+        "UName": "Abudaii",
+        "TypeID": 2,
+        "Gmail": "Abudaii.ii@gmail.com",
+        "Password": "securepwd",
+        "Payment": 30,
+        "Coin": 15000
+      }
+    ],
+    "Cartoon": [
+      {
+        "cID": 1,
+        "CName": "The Fat orange cat",
+        "Description": "แมวส้มตัวอ้วนเป็นแมวที่มีขนสีส้มสดและมีน้ำหนักมากเมื่อเทียบกับขนาดของมัน. มีลักษณะที่น่ารักและน่าเอ็นดู, มักแสดงท่าทางขี้เล่นและเพลียตลอดเวลา. การมีน้ำหนักมากสามารถทำให้มีลักษณะทรงกลมและน่ารักมากยิ่งขึ้น นอกจากนี้ ลักษณะสีส้มสดชัดเน้นเพิ่มความน่ารักและเป็นเอกลักษณ์ของแมวส้มตัวนี้ได้อีกด้วย",
+        "Genre": "Slow Life",
+        "Release_Date": "2023-01-15",
+        "UID": 2,
+        "img_path": "image/12.jpg"
+      },
+      {
+        "cID": 2,
+        "CName": "Gee Jaa Maru",
+        "Description": "นายพลผู้ยอดเยี่ยมมีความลับซ่อนเร้นที่ไม่ว่าใครรู้ ผู้คนหารู้ไม่เจอเบื้องหลังการต่อสู้ของเขา เมื่อศัตรูรู้ถึงความลับท้าทายและเปิดเผยความซับซ้อนของนายพลที่ซ่อนอยู่ การต่อสู้ไม่เพียงแค่กับศัตรูภายนอก แต่ยังต้องเผชิญกับความแค้นและเส้นทางที่คับข้องในการรักษาความลับ",
+        "Genre": "Action",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/54.jpg"
+      },
+      {
+        "cID": 3,
+        "CName": "XO",
+        "Description": "ไอดอลสาวที่มีแสงสว่างสดใสบนเวที ซากุระ กลับมาพบกับการเปลี่ยนแปลงที่ทับซ้อนในชีวิตส่วนตัว เธอต้องเผชิญกับความทรงจำ การเปลี่ยนแปลง และความรู้สึกที่ซับซ้อนเกินบรรยาย",
+        "Genre": "Drama",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/10.jpg"
+      },
+      {
+        "cID": 4,
+        "CName": "เศษฝุ่น",
+        "Description": "สาวหนึ่งที่มีดวงใจอ่อนโยน ต้องเผชิญกับความรักและท้าทาย เธอพบกับความสัมพันธ์ที่แสนอบอุ่น แต่ต้องพยายามให้ใจทนรับมือกับความซับซ้อนของการเปิดเผยอารมณ์",
+        "Genre": "Drama",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/11.jpg"
+      },{
+        "cID": 5,
+        "CName": "ผมอยากออกจากเกมจีบหนุ่ม",
+        "Description": "ทัด เด็กหนุ่มน่ารัก ตกอยู่ในโลกเสมือนของเกมจีบหนุ่มที่น่าสนใจ เขาได้พบกับตัวละครในเกมที่ทำให้เขาต้องเผชิญกับการดำเนินเรื่องของความรักในโลกจริง ทัดต้องต่อสู้กับอุปสรรคและความท้าทาย พร้อมทั้งเรียนรู้ถึงความรู้สึกแท้จริงที่มีค่า",
+        "Genre": "Yaoi",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/13.png"
+      },
+      {
+        "cID": 6,
+        "CName": "เป็นหมีก็เหนื่อยนะครับ",
+        "Description": "ในเมืองเงียบสงบ มีหมีสีน้ำตาลผจญภัยมาอาศัย เขาเผชิญกับชีวิตในเมืองที่ไม่ค่อยเหมือนบริบทธรรมชาติ หมีน้อยต้องเรียนรู้เรื่องใหม่ สร้างเพื่อน และท้าทายอุปสรรคในการเป็นหมีในโลกที่เร็วเป็นอย่างมาก ความผจญภัยที่น่ารักและว่องไวนำพาเขาสู่การเจรจา การเรียนรู้ และการเป็นตัวของตนเองในเมืองที่ไม่มีใครคาดคิด",
+        "Genre": "Comedy",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/img2.jpg"
+      },
+      {
+        "cID": 7,
+        "CName": "วันนี้เป็นวันดี",
+        "Description": "ฉันคิดว่าเราควรมองโลกในแง่ดีก่อนนะ ไม่ว่าอะไรจะเกิดขึ้น",
+        "Genre": "Comedy",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/ami.jpg"
+      },
+      {
+        "cID": 8,
+        "CName": "ZZZ",
+        "Description": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+        "Genre": "Action",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/zzz.jpg"
+      },
+      {
+        "cID": 9,
+        "CName": "ooo",
+        "Description": "",
+        "Genre": "Action",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/ooo.jpg"
+      },
+      {
+        "cID": 10,
+        "CName": "ปลายฟ้า",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora pariatur, quisquam odio reprehenderit suscipit recusandae mollitia velit necessitatibus fuga a corrupti aspernatur facere porro doloremque qui blanditiis eveniet earum.",
+        "Genre": "Romance",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/ma.jpg"
+      },
+      {
+        "cID": 11,
+        "CName": "รักนี้โอเคหรือเปล่า",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora pariatur, quisquam odio reprehenderit suscipit recusandae mollitia velit necessitatibus fuga a corrupti aspernatur facere porro doloremque qui blanditiis eveniet earum.",
+        "Genre": "Romance",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/phn.jpg"
+      },
+      {
+        "cID": 12,
+        "CName": "การต่อสู้ของไข่",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora pariatur, quisquam odio reprehenderit suscipit recusandae mollitia velit necessitatibus fuga a corrupti aspernatur facere porro doloremque qui blanditiis eveniet earum.",
+        "Genre": "Action",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/pink.jpg"
+      },
+      {
+        "cID": 13,
+        "CName": "ช่วยด้วยจ้า!! ความรักมันบังตาฉันซะแล้ว",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora pariatur, quisquam odio reprehenderit suscipit recusandae mollitia velit necessitatibus fuga a corrupti aspernatur facere porro doloremque qui blanditiis eveniet earum.",
+        "Genre": "Romance",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/ply.jpg"
+      },
+      {
+        "cID": 14,
+        "CName": "Siren",
+        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tempora pariatur, quisquam odio reprehenderit suscipit recusandae mollitia velit necessitatibus fuga a corrupti aspernatur facere porro doloremque qui blanditiis eveniet earum.",
+        "Genre": "Action",
+        "Release_Date": "2023-02-01",
+        "UID": 2,
+        "img_path": "image/profile/si.jpg"
+      }
+    ],
+    "Chapter": [
+      {
+        "ChapID": 1,
+        "Title": "Chapter 1",
+        "CID": 1,
+        "Release_Date": "2023-01-20",
+        "img_path":"image/12.jpg"
+      }
+    ],
+    "Chapter_img": [
+        {
+          "Chapter_imgID": 1,
+          "ChapID": 1,
+          "img_path": "image/cat/1.png"
+        },
+        {
+          "Chapter_imgID": 2,
+          "ChapID": 1,
+          "img_path": "image/cat/2.png"
+        },
+        {
+          "Chapter_imgID": 3,
+          "ChapID": 1,
+          "img_path": "image/cat/3.png"
+        }
+      ]
+  }
